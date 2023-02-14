@@ -1,6 +1,6 @@
 # crud-basic-js
 - My site is live at = null
-- Project : CRUD Basic
+- Project : Basic CRUD JS
 - Tools = JavaScript, HTML5, CSS3
 </br>
 
