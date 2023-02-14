@@ -17,8 +17,9 @@
 └── 📄index.html
 └── 📄note
 └── 📄README.md
+```
 
-## Run project step
+## Run project step : 
 - Open :
     ```
     Open with Live Server

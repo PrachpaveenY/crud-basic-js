@@ -9,8 +9,47 @@
 </head>
 <body>
     <div>
-        <form action="#"></form>
+        <form onsubmit="even.preventDefault();FormSubmit();" autocomplete="off" action="#">
+            <div>
+                <label for="#">NAME-SURNAME :&nbsp;</label>
+                <input type="text" name="FullName" id="FullName" required>
+            </div>
+            <div>
+                <label for="#">ADDRESS :&nbsp;</label>
+                <input type="text" name="Address" id="Address" required>
+            </div>
+            <div>
+                <label for="#">SALARY :&nbsp;</label>
+                <input type="number" name="Salary" id="Salary" required>
+            </div>
+            <div>
+                <label for="#">POSITION :&nbsp;</label>
+                <input type="text" name="Position" id="Position" required>
+            </div>
+            <div>
+                <label for="#">SKILL :&nbsp;</label>
+                <input type="text" name="Skill" id="Skill">
+            </div><hr>
+            <div>
+                <input type="submit" value="Save">
+            </div>
+        </form>
     </div><br>
+    <div>
+        <table id="table-employee" border="1">
+            <thead>
+                <tr>
+                    <th>NAME-SURNAME</th>
+                    <th>ADDRESS</th>
+                    <th>SALARY</th>
+                    <th>POSITION</th>
+                    <th>SKILL</th>
+                    <th>EDIT/DELETE</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
     <script src="javascript/crud.js"></script>
 </body>
 </html>
