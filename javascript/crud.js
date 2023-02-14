@@ -1,0 +1,1 @@
+let userSelected = null;
