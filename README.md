@@ -33,5 +33,5 @@
     ```
 - Open my project website :
     ```
-    # https://prachpaveeny.github.io/crud-basic-js/
+    https://prachpaveeny.github.io/crud-basic-js/
     ```
