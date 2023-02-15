@@ -11,23 +11,23 @@
     <div>
         <form onsubmit="even.preventDefault();FormSubmit();" autocomplete="off" action="#">
             <div>
-                <label for="#">NAME-SURNAME :&nbsp;</label>
+                <label for="FullName">NAME-SURNAME :&nbsp;</label>
                 <input type="text" name="FullName" id="FullName" required>
             </div>
             <div>
-                <label for="#">ADDRESS :&nbsp;</label>
+                <label for="Address">ADDRESS :&nbsp;</label>
                 <input type="text" name="Address" id="Address" required>
             </div>
             <div>
-                <label for="#">SALARY :&nbsp;</label>
+                <label for="Salary">SALARY :&nbsp;</label>
                 <input type="number" name="Salary" id="Salary" required>
             </div>
             <div>
-                <label for="#">POSITION :&nbsp;</label>
+                <label for="Position">POSITION :&nbsp;</label>
                 <input type="text" name="Position" id="Position" required>
             </div>
             <div>
-                <label for="#">SKILL :&nbsp;</label>
+                <label for="Skill">SKILL :&nbsp;</label>
                 <input type="text" name="Skill" id="Skill">
             </div><hr>
             <div>
@@ -36,7 +36,7 @@
         </form>
     </div><br>
     <div>
-        <table id="table-employee" border="1">
+        <table id="tableEmployee" border="1">
             <thead>
                 <tr>
                     <th>NAME-SURNAME</th>
@@ -44,10 +44,11 @@
                     <th>SALARY</th>
                     <th>POSITION</th>
                     <th>SKILL</th>
-                    <th>EDIT/DELETE</th>
+                    <th></th>
                 </tr>
             </thead>
-            <tbody></tbody>
+            <tbody>
+            </tbody>
         </table>
     </div>
     <script src="javascript/crud.js"></script>
