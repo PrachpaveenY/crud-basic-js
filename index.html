@@ -9,25 +9,25 @@
 </head>
 <body>
     <div>
-        <form onsubmit="even.preventDefault();FormSubmit();" autocomplete="off" action="#">
+        <form onsubmit="event.preventDefault();FormSubmit();" autocomplete="off">
             <div>
-                <label for="FullName">NAME-SURNAME :&nbsp;</label>
+                <label>NAME-SURNAME :&nbsp;</label>
                 <input type="text" name="FullName" id="FullName" required>
             </div>
             <div>
-                <label for="Address">ADDRESS :&nbsp;</label>
+                <label>ADDRESS :&nbsp;</label>
                 <input type="text" name="Address" id="Address" required>
             </div>
             <div>
-                <label for="Salary">SALARY :&nbsp;</label>
+                <label>SALARY :&nbsp;</label>
                 <input type="number" name="Salary" id="Salary" required>
             </div>
             <div>
-                <label for="Position">POSITION :&nbsp;</label>
+                <label>POSITION :&nbsp;</label>
                 <input type="text" name="Position" id="Position" required>
             </div>
             <div>
-                <label for="Skill">SKILL :&nbsp;</label>
+                <label>SKILL :&nbsp;</label>
                 <input type="text" name="Skill" id="Skill">
             </div><hr>
             <div>
@@ -44,7 +44,7 @@
                     <th>SALARY</th>
                     <th>POSITION</th>
                     <th>SKILL</th>
-                    <th></th>
+                    <th>EDIT/DELETE</th>
                 </tr>
             </thead>
             <tbody>

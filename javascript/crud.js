@@ -24,26 +24,25 @@ function FormSubmit() {
 
 function Create(data) {
     var table = document.getElementById("tableEmployee").getElementsByTagName('tbody')[0];
-    var NewRow = table.insertRow(table.length);
-    cell1 = NewRow.insertCell(0);
+    var newRow = table.insertRow(table.length);
+    cell1 = newRow.insertCell(0);
     cell1.innerHTML = data.FullName;
 
-    cell2 = NewRow.insertCell(1);
+    cell2 = newRow.insertCell(1);
     cell2.innerHTML = data.Address;
 
-    cell3 = NewRow.insertCell(2);
+    cell3 = newRow.insertCell(2);
     cell3.innerHTML = data.Salary;
 
-    cell4 = NewRow.insertCell(3);
+    cell4 = newRow.insertCell(3);
     cell4.innerHTML = data.Position;
 
-    cell5 = NewRow.insertCell(4);
+    cell5 = newRow.insertCell(4);
     cell5.innerHTML = data.Skill;
 
-    cell6 = NewRow.insertCell(5);
+    cell6 = newRow.insertCell(5);
     cell6.innerHTML = `<a onClick="Edit(this)">Edit</a> <a onClick="Delete(this)">Delete</a>`;
 }
-
 function ClearForm() {
     document.getElementById("FullName").value = "";
     document.getElementById("Address").value = "";
@@ -53,7 +52,6 @@ function ClearForm() {
 
     userSelected = null;
 }
-
 function Edit(td) {
     userSelected = td.parentElement.parentElement;
     document.getElementById("FullName").value = userSelected.cells[0].innerHTML;
@@ -74,7 +72,7 @@ function Update(formData) {
 function Delete(td) {
     if (confirm('Do you want to delete this row?')) {
         row = td.parentElement.parentElement;
-        document.getElementById("tableEmployee").deleteRow(row.rowMain);
+        document.getElementById("tableEmployee").deleteRow(row.rowIndex);
 
         ClearForm();
     }
