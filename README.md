@@ -1,5 +1,5 @@
 # crud-basic-js (Complete)
-- View my project website = null
+- View my project website = https://prachpaveeny.github.io/crud-basic-js/
 - Project : Basic CRUD JS
 - Tools = JavaScript, HTML5, CSS3
 </br>
@@ -29,5 +29,9 @@
 ## Run project step : 
 - Open :
     ```
-    Open with Live Server
+    # Open with Live Server
+    ```
+- Open my project website :
+    ```
+    # https://prachpaveeny.github.io/crud-basic-js/
     ```
