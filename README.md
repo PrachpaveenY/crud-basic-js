@@ -27,7 +27,7 @@
 ```
 
 ## Run project step : 
-- Open :
+- Open Server :
     ```
     # Open with Live Server
     ```
