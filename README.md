@@ -1,8 +1,15 @@
-# crud-basic-js
+# crud-basic-js (Complete)
 - My site is live at = null
 - Project : Basic CRUD JS
 - Tools = JavaScript, HTML5, CSS3
 </br>
+
+### Detail : 
+- Project : Basic CRUD JS
+- Can create new information
+- Can read information
+- Able to edit or update information
+- Can delete data
 
 ### Structure :
 ```
