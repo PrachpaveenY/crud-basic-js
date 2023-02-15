@@ -47,7 +47,7 @@ function Create(data) {
 function ClearForm() {
     document.getElementById("FullName").value = "";
     document.getElementById("Address").value = "";
-    document.getElementById("Salary").value = "0";
+    document.getElementById("Salary").value = 0;
     document.getElementById("Position").value = "";
     document.getElementById("Skill").value = "";
 
